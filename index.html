@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Go back</title>
+<h1>Go back to your previous tab :)</h1>
+<script>
+	if (window.opener) {
+		opener.location = 'https://youtu.be/dQw4w9WgXcQ';
+	} else {
+		document.querySelector('h1').innerHTML = 'Nothing here.';
+	}
+</script>
